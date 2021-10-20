@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "lib": ["es7", "es2015.promise", "dom"],
+    "sourceMap": false,
+    "newLine": "LF",
+    "outDir": "./src/FileCabinet/SuiteScripts/TestTypescript",
+    "strict": false,
+    "alwaysStrict": false,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "paths": {
+      "N": ["node_modules/@hitc/netsuite-types/N"],
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"]
+    }
+  }
+}
